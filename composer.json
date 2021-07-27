@@ -1,0 +1,32 @@
+{
+    "name": "codeplace-io/settings-bundle",
+    "type": "symfony-bundle",
+    "description": "settings symfony bundle",
+    "keywords": [
+        "Symfony",
+        "Codeplace",
+        "Settings"
+    ],
+    "homepage": "https://github.com/codeplace-io/SettingsBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maciej Żukiewicz",
+            "email": "maciej.zukiewicz@codeplace.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2",
+        "symfony/http-kernel": "^5.0"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeplace\\SettingsBundle\\": "src/"
+        }
+    }
+}
