@@ -40,8 +40,6 @@ abstract class AbstractSettingsCrudController extends AbstractCrudController
             FormField::addPanel('Ustawienie'),
             TextField::new('name', 'Nazwa')
                 ->setFormTypeOption('disabled', 'disabled'),
-
-            FormField::addPanel('Parametry'),
         ];
     }
 }
